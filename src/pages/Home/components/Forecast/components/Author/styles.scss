@@ -1,0 +1,22 @@
+.author {
+  text-align: center;
+  margin-top: 2.5rem;
+  color: #a09fb1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  transition: opacity 0.2s;
+
+  span {
+    font-weight: 500;
+
+    a {
+      text-decoration: none;
+      font-weight: 700;
+      color: #a09fb1;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
